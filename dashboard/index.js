@@ -155,7 +155,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Latency logging middleware 
+// Teacher Portal SPA (built into public/portal). Static assets are served by the
+// middleware above; this fallback serves index.html for client-side routes like
+// /portal/login or /portal/dashboard so React Router can take over (deep links + refresh).
+app.get('/portal/*', (req, res, next) => {
+  if (req.method !== 'GET' || req.path.startsWith('/portal/assets') || req.path.includes('.')) {
+    return next();
+  }
+  res.sendFile(path.join(__dirname, 'public', 'portal', 'index.html'));
+});
+
+// Latency logging middleware
 // Tracks request duration and alerts on slow requests
 app.use(latencyLogger);
 
