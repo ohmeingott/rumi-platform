@@ -23,11 +23,11 @@ const PortalNavigation = () => {
   return (
     <>
       {/* Desktop Navigation - Top */}
-      <nav className="hidden md:block bg-primary text-primary-foreground border-b border-white/10">
+      <nav className="hidden md:block bg-[#1a1d23] text-white border-b border-white/10">
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-md bg-primary-foreground text-primary flex items-center justify-center font-bold">S</div>
+              <div className="w-8 h-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center font-bold">S</div>
               <span className="font-semibold text-lg">Silverleaf</span>
             </div>
 
@@ -39,7 +39,7 @@ const PortalNavigation = () => {
                   className={cn(
                     "flex items-center gap-2 px-4 py-2 rounded-md transition-colors",
                     isActive(item.path)
-                      ? "bg-white/20 text-white"
+                      ? "bg-primary text-primary-foreground font-medium"
                       : "text-white/70 hover:text-white hover:bg-white/10"
                   )}
                 >
