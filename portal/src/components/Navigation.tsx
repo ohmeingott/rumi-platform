@@ -10,7 +10,7 @@ import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 const Navigation = () => {
   const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
-  const whatsappUrl = getWhatsAppUrl('https://wa.me/message/WCYNS4DTDB2MD1');
+  const whatsappUrl = getWhatsAppUrl('https://wa.me/15556445259');
 
   const handleCtaClickTracking = () => {
     trackCtaClick('navigation');
@@ -35,8 +35,8 @@ const Navigation = () => {
       <div className="container px-6 mx-auto max-w-7xl">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <img src={rumiLogo} alt="Rumi logo" className="w-8 h-8 object-contain" />
-            <span className="text-xl font-normal tracking-tight">Rumi</span>
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">S</div>
+            <span className="text-xl font-semibold tracking-tight">Silverleaf</span>
           </div>
 
           <div className="flex items-center gap-4">

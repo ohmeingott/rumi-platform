@@ -151,7 +151,7 @@ const PortalCoaching = () => {
             title="No coaching sessions yet"
             description="Complete your first coaching session using the WhatsApp bot"
             actionLabel="Open WhatsApp"
-            actionHref="https://wa.me/message/WCYNS4DTDB2MD1"
+            actionHref="https://wa.me/15556445259"
           />
         )}
       </div>

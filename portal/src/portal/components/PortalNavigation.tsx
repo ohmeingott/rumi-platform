@@ -27,12 +27,8 @@ const PortalNavigation = () => {
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <img 
-                src={rumiLogo} 
-                alt="Rumi logo" 
-                className="w-8 h-8 object-contain" 
-              />
-              <span className="font-semibold text-lg">Rumi</span>
+              <div className="w-8 h-8 rounded-md bg-primary-foreground text-primary flex items-center justify-center font-bold">S</div>
+              <span className="font-semibold text-lg">Silverleaf</span>
             </div>
 
             <div className="flex items-center gap-1">

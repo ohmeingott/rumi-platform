@@ -331,7 +331,7 @@ const PortalCoachingAnalytics = () => {
               </p>
               <Button asChild className="bg-accent hover:bg-accent/90">
                 <a 
-                  href="https://wa.me/message/WCYNS4DTDB2MD1" 
+                  href="https://wa.me/15556445259" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >

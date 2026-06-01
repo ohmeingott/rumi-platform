@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 const FinalCTA = () => {
   const { t } = useTranslation();
-  const whatsappUrl = getWhatsAppUrl('https://wa.me/message/WCYNS4DTDB2MD1');
+  const whatsappUrl = getWhatsAppUrl('https://wa.me/15556445259');
 
   const handleCtaClickTracking = () => {
     trackCtaClick('footer');

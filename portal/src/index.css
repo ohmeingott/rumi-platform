@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 13%;
 
-    --primary: 225 73% 20%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 41 100% 66%;
+    --primary-foreground: 0 0% 13%;
 
     --secondary: 220 10% 96%;
     --secondary-foreground: 220 13% 13%;
@@ -26,20 +26,20 @@ All colors MUST be HSL.
     --muted: 220 10% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 15 85% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 205 74% 71%;
+    --accent-foreground: 0 0% 13%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 225 73% 20%;
+    --ring: 41 100% 66%;
 
     --radius: 1rem;
-    
-    /* Custom tokens for premium design */
-    --gradient-hero: linear-gradient(135deg, hsl(225 73% 20%) 0%, hsl(230 60% 35%) 100%);
+
+    /* Custom tokens for premium design (Silverleaf theme) */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 17%) 0%, hsl(205 55% 32%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 20% 98%) 100%);
     --shadow-soft: 0 4px 24px -4px hsl(220 13% 13% / 0.06);
     --shadow-medium: 0 12px 48px -8px hsl(220 13% 13% / 0.10);
@@ -77,8 +77,8 @@ All colors MUST be HSL.
     --popover: 220 13% 13%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 225 73% 60%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 41 100% 62%;
+    --primary-foreground: 0 0% 13%;
 
     --secondary: 220 13% 18%;
     --secondary-foreground: 0 0% 98%;
@@ -86,15 +86,15 @@ All colors MUST be HSL.
     --muted: 220 13% 18%;
     --muted-foreground: 220 9% 65%;
 
-    --accent: 15 85% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 205 74% 66%;
+    --accent-foreground: 0 0% 13%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 13% 18%;
     --input: 220 13% 18%;
-    --ring: 225 73% 60%;
+    --ring: 41 100% 62%;
     
     --gradient-hero: linear-gradient(135deg, hsl(225 73% 25%) 0%, hsl(230 60% 40%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(220 13% 13%) 0%, hsl(220 13% 16%) 100%);
@@ -106,6 +106,10 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   }
 }
 

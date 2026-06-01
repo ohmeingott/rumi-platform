@@ -5,7 +5,7 @@ import rumiLogo from "@/assets/rumi-logo.png";
 import { getWhatsAppUrl, trackCtaClick } from "@/lib/funnelTracking";
 
 const HowItWorks = () => {
-  const whatsappUrl = getWhatsAppUrl('https://wa.me/message/WCYNS4DTDB2MD1');
+  const whatsappUrl = getWhatsAppUrl('https://wa.me/15556445259');
 
   const handleCtaClickTracking = () => {
     trackCtaClick('how-it-works');
